@@ -42,6 +42,7 @@ from .usps import USPS
 from .vision import VisionDataset
 from .voc import VOCSegmentation, VOCDetection
 from .widerface import WIDERFace
+from .tiny_imagenet import TinyImageNet
 
 __all__ = (
     "LSUN",
@@ -105,4 +106,5 @@ __all__ = (
     "FGVCAircraft",
     "EuroSAT",
     "RenderedSST2",
+    "TinyImageNet",
 )
